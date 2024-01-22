@@ -49,8 +49,8 @@ int main(int argc, char *argv[])
     }
     struct chip8 chip8;
     chip8_init(&chip8);
+    chip8_keyboard_set_map(&chip8.keyboard, keyboard_map);
     chip8_load(&chip8, buffer, fsize);
-     chip8_keyboard_set_map(&chip8.keyboard, keyboard_map);
     ///////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////
     /*chip8.registres.V[0] = 0x06;
