@@ -117,7 +117,6 @@ while(1)
         {
             Sleep(100);
             chip8.registres.delay_timer--;
-            printf("delay");
         }
         if (chip8.registres.sound_timer > 0)
         {
