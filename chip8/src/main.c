@@ -113,7 +113,17 @@ while(1)
                     SDL_RenderFillRect(renderer, &r);
                 }
             }
-        
+        if (chip8.registres.delay_timer > 0)
+        {
+            Sleep(100);
+            chip8.registres.delay_timer--;
+            printf("delay");
+        }
+        if (chip8.registres.sound_timer > 0)
+        {
+            Beep(1300, 100 * chip8.registres.sound_timer);
+            chip8.registres.sound_timer = 0;
+        }
             }
         SDL_RenderPresent(renderer);
         
