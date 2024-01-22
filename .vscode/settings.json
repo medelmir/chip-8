@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "chip8keyboard.h": "c",
+        "sdl.h": "c",
+        "stdio.h": "c"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "makefile.makefilePath": "C:/Users/admin/Desktop/chip8/Makefile",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\admin\\Desktop\\chip8\\bin",
+            "binaryPath": "c:\\Users\\admin\\Desktop\\chip8\\bin\\main",
+            "binaryArgs": []
+        }
+    ]
+}
