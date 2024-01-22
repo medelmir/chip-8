@@ -3,6 +3,7 @@
         "*.embeddedhtml": "html",
         "chip8keyboard.h": "c",
         "sdl.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "config.h": "c"
     }
 }
